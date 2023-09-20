@@ -1,0 +1,20 @@
+{
+  "version": 2.0,
+  "projects": [
+    {
+      "root": "Src/bin",
+      "filesToScan": [
+        "Src"
+      ],
+      "source-dirs": [],
+      "excluded-files": [],
+      "sca-translation-args": [
+        "-Dcom.fortify.sca.EnableDOMModeling\u003dtrue"
+      ],
+      "properties": {}
+    }
+  ],
+  "sca-scan-args": [
+    "-Dcom.fortify.sca.Phase0HigherOrder.Languages\u003dpython,ruby,swift,javascript,typescript"
+  ]
+}
